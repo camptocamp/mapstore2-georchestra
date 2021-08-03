@@ -1,3 +1,12 @@
+Fork of https://github.com/georchestra/mapstore2-georchestra that points to a fork of MapStore, on the latest stable branch at this day.
+The MapStore forks contains two additions at this day (one to get reports extension working, and a fix of catalog search).
+
+To build/rebuild our custom mapstore2-georchestra image :
+- ./build.sh
+- cp web/target/mapstore.war docker/
+- docker build . -t camptocamp/mapstore2-georchestra:{tag}
+
+
 # geOrchestra
 
 
