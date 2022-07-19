@@ -1,3 +1,12 @@
+Fork of https://github.com/georchestra/mapstore2-georchestra that points to a fork of MapStore.
+The MapStore forks contains two commits to get reports extension working.
+Both forks use branches named `custom-viewer`.
+
+To build/rebuild our custom mapstore2-georchestra image :
+- ./build.sh
+- cp web/target/mapstore.war docker/
+- docker build . -t camptocamp/mapstore2-georchestra:{tag}
+
 # geOrchestra
 
 
